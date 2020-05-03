@@ -18,11 +18,11 @@ Switch Platform > Android
 
 [Assets] > [Google Mobile Ads] > [Settings] 
 
-Enabledにチェック　　
-テスト用IDを設定　　
+Enabledにチェック  　
+テスト用IDを設定  　　
 　
-#UNITY_ANDROID　　
-string adUnitId = "ca-app-pub-3940256099942544/6300978111";　　
+#UNITY_ANDROID  
+string adUnitId = "ca-app-pub-3940256099942544/6300978111";  
 
 #UNITY_IPHONE  
 string adUnitId = "ca-app-pub-3940256099942544/2934735716";
