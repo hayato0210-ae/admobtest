@@ -17,13 +17,16 @@ Switch Platform > Android
 [Assets] > [Play Services Resolver] > [Android Resolver] > [Resolve] で各種ファイルをインストール
 
 [Assets] > [Google Mobile Ads] > [Settings] 
-　Enabledにチェック
-　テスト用IDを設定
+
+Enabledにチェック
+テスト用IDを設定
 　
-　#if UNITY_ANDROID
-  string adUnitId = "ca-app-pub-3940256099942544/6300978111";
-  #elif UNITY_IPHONE
-  string adUnitId = "ca-app-pub-3940256099942544/2934735716";
+#UNITY_ANDROID
+string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+
+#UNITY_IPHONE
+string adUnitId = "ca-app-pub-3940256099942544/2934735716";
+
 
 AdMobTest.csを作成
 
